@@ -1,6 +1,5 @@
 npm init -y
-
-Install Dependencies:
+On terminal Install Dependencies:
    npm install qrcode
    npm install readline-sync
 
