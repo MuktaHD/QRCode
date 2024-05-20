@@ -1,4 +1,4 @@
-//these are required first install qrcode
+//These are required.. first install qrcode
 const qr = require('qrcode');
 const readlineSync = require('readline-sync');
 const fs = require('fs');
