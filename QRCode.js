@@ -11,7 +11,7 @@ async function QRCode() {
     // Generate the QR code
     const qrCode = await qr.toDataURL(data);
 
-    // Save the QR code as an image file
+    // Save the QR code as an image file. 
     const imageName = `${data.replace(/\s/g, '_')}.png`;
     fs.writeFileSync(imageName, qrCode.split(';base64,').pop(), { encoding: 'base64' });
 
